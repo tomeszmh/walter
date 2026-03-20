@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hőszivattyú Telepítés Szigetszentmiklós – Walter &amp; Walter Kft. | Épületgépészet</title>
+  <meta name="description" content="Hőszivattyú telepítés Szigetszentmiklóson és Pest megyében 2016 óta. Levegő-víz hőszivattyú, padlófűtés, szerviz. Díjmentes felmérés, gyors ajánlat. ☎ +36 70 538 3255" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://waltergepeszet.hu/" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://waltergepeszet.hu/" />
+  <meta property="og:title" content="Walter &amp; Walter Kft. – Hőszivattyú Telepítés &amp; Épületgépészet" />
+  <meta property="og:description" content="2016 óta megbízható hőszivattyú telepítés, padlófűtés, szerviz. Díjmentes konzultáció." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=1200&h=630&fit=crop" />
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Walter & Walter Kft.",
+    "description": "Hőszivattyú telepítés, padlófűtés, épületgépészet 2016 óta.",
+    "url": "https://waltergepeszet.hu",
+    "telephone": "+36705383255",
+    "email": "info@walterepito.hu",
+    "foundingDate": "2016",
+    "priceRange": "$$",
+    "openingHours": ["Mo-Fr [TÖLTSD KI: pl. 08:00-17:00]"],
+    "areaServed": "Szigetszentmiklós, Pest megye",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "[TÖLTSD KI]",
+      "addressLocality": "Szigetszentmiklós",
+      "postalCode": "2310",
+      "addressCountry": "HU"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "[TÖLTSD KI]",
+      "longitude": "[TÖLTSD KI]"
+    },
+    "sameAs": ["https://www.facebook.com/walterwalter"]
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --dark:    #2d2d2d;
+      --dark2:   #3f3f3f;
+      --orange:  #2a9d8f;
+      --orange2: #1f7d72;
+      --light:   #f2f7f7;
+      --white:   #ffffff;
+      --text:    #1e1e1e;
+      --muted:   #5a6a6a;
+      --border:  #d0e0de;
+      --radius:  10px;
+      --shadow:  0 4px 24px rgba(42,157,143,0.10);
+    }
+
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; color: var(--text); background: var(--white); line-height: 1.65; }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; object-fit: cover; }
+
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+    .section { padding: 72px 0; }
+    .section-alt { background: var(--light); }
+
+    h1 { font-size: clamp(1.9rem, 5vw, 2.9rem); font-weight: 800; line-height: 1.2; }
+    h2 { font-size: clamp(1.45rem, 3.5vw, 2.1rem); font-weight: 700; margin-bottom: 16px; }
+    h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
+
+    .label { font-size: 0.78rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--orange); margin-bottom: 10px; }
+    .lead { font-size: 1.05rem; color: var(--muted); max-width: 640px; }
+
+    .btn {
+      display: inline-block; padding: 14px 30px;
+      border-radius: var(--radius); font-size: 1rem; font-weight: 700;
+      cursor: pointer; transition: all .2s; border: none;
+    }
+    .btn-primary { background: var(--orange); color: #fff; }
+    .btn-primary:hover { background: var(--orange2); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(244,124,32,.35); }
+    .btn-outline { background: transparent; color: #fff; border: 2px solid rgba(255,255,255,.5); }
+    .btn-outline:hover { background: rgba(255,255,255,.1); }
+
+    /* ── URGENCY SÁV ── */
+    #urgency-bar {
+      background: #1f7d72; color: #fff;
+      text-align: center; padding: 10px 20px;
+      font-size: .9rem; font-weight: 600;
+    }
+    #urgency-bar span { color: #ffd199; }
+
+    /* ── HEADER ── */
+    #site-header {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--dark);
+      box-shadow: 0 2px 12px rgba(0,0,0,.3);
+    }
+    .header-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 13px 20px; max-width: 1100px; margin: 0 auto;
+    }
+    .logo { color: #fff; font-size: 1.15rem; font-weight: 800; line-height: 1.2; }
+    .logo span { color: var(--orange); }
+    .logo small { display: block; font-size: .65rem; font-weight: 400; opacity: .6; }
+    .header-cta { display: flex; align-items: center; gap: 14px; }
+    .header-phone { color: #fff; font-weight: 700; font-size: .97rem; }
+    .header-phone:hover { color: var(--orange); }
+
+    /* ── HERO ── */
+    #hero {
+      background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 55%, #3f3f3f 100%);
+      color: #fff; padding: 80px 20px 70px;
+      position: relative; overflow: hidden;
+    }
+    #hero::after {
+      content: ''; position: absolute; right: -80px; top: -80px;
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(42,157,143,.22) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-content { max-width: 680px; position: relative; z-index: 1; }
+    .hero-content .label { color: #ffb36e; }
+    .hero-content h1 { margin-bottom: 18px; }
+    .hero-content > p { font-size: 1.1rem; opacity: .88; margin-bottom: 32px; max-width: 560px; }
+    .hero-btns { display: flex; flex-wrap: wrap; gap: 12px; }
+    .hero-trust { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 40px; }
+    .trust-item { display: flex; align-items: center; gap: 8px; font-size: .88rem; opacity: .85; }
+
+    /* ── STATS ── */
+    #stats { background: var(--orange); color: #fff; padding: 36px 20px; }
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 20px; text-align: center; }
+    .stat-number { font-size: 2.1rem; font-weight: 800; line-height: 1; }
+    .stat-label { font-size: .82rem; opacity: .9; margin-top: 4px; }
+
+    /* ── PARTNERS ── */
+    #partners { padding: 36px 20px; border-bottom: 1px solid var(--border); }
+    .partners-label { text-align: center; font-size: .78rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 20px; }
+    .partners-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 32px; }
+    .partner-logo {
+      background: var(--light); border-radius: 8px;
+      padding: 12px 24px; font-weight: 800; font-size: 1rem;
+      color: var(--dark2); letter-spacing: .5px; opacity: .7;
+    }
+
+    /* ── WHY ── */
+    .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; margin-top: 44px; }
+    .why-card {
+      background: var(--white); border-radius: var(--radius);
+      padding: 26px 22px; box-shadow: var(--shadow);
+      border-top: 4px solid var(--orange); transition: transform .2s;
+    }
+    .why-card:hover { transform: translateY(-4px); }
+    .why-icon { font-size: 1.9rem; margin-bottom: 10px; }
+
+    /* ── SERVICES ── */
+    .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin-top: 44px; }
+    .service-card {
+      background: var(--white); border-radius: var(--radius);
+      overflow: hidden; box-shadow: var(--shadow); transition: transform .2s;
+    }
+    .service-card:hover { transform: translateY(-4px); }
+    .service-img {
+      height: 180px; overflow: hidden;
+      background: linear-gradient(135deg, #2d2d2d 0%, #3f3f3f 100%);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .service-img img { width: 100%; height: 100%; }
+    .service-img-fallback { font-size: 3.5rem; }
+    .service-body { padding: 22px; }
+    .service-body p { color: var(--muted); font-size: .92rem; margin-top: 6px; }
+
+    /* ── CALCULATOR ── */
+    #kalkulator { background: #1f2e2e; color: #fff; }
+    #kalkulator h2, #kalkulator .label { color: #fff; }
+    #kalkulator .label { color: var(--orange); }
+    #kalkulator .lead { color: rgba(255,255,255,.7); }
+    .calc-box {
+      background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12);
+      border-radius: var(--radius); padding: 32px; margin-top: 36px; max-width: 680px;
+    }
+    .calc-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 18px; }
+    .calc-field label { display: block; font-size: .83rem; opacity: .75; margin-bottom: 6px; }
+    .calc-field input, .calc-field select {
+      width: 100%; padding: 13px 14px;
+      background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.18);
+      border-radius: 6px; color: #fff; font-size: 1rem;
+    }
+    .calc-field input::placeholder { color: rgba(255,255,255,.35); }
+    .calc-field select option { background: #222; }
+    #calc-result {
+      background: var(--orange); border-radius: var(--radius);
+      padding: 22px 26px; margin-top: 20px; display: none;
+    }
+    .result-title { font-size: .83rem; opacity: .9; }
+    .result-saving { font-size: 1.9rem; font-weight: 800; line-height: 1.2; margin: 4px 0; }
+    .result-sub { font-size: .88rem; opacity: .88; }
+
+    /* ── TESTIMONIALS ── */
+    .testimonials-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin-top: 44px; }
+    .testimonial-card {
+      background: var(--white); border-radius: var(--radius);
+      padding: 28px; box-shadow: var(--shadow); border-left: 4px solid var(--orange);
+    }
+    .testimonial-text { font-size: 1rem; font-style: italic; line-height: 1.7; color: var(--text); }
+    .testimonial-text::before { content: '\201E'; font-size: 2.5rem; color: var(--orange); line-height: .4; vertical-align: -.8rem; margin-right: 3px; }
+    .testimonial-author { margin-top: 18px; display: flex; align-items: center; gap: 12px; }
+    .author-avatar {
+      width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0;
+      background: var(--dark); color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 800; font-size: 1rem;
+    }
+    .author-name { font-weight: 700; font-size: .95rem; }
+    .author-sub { font-size: .8rem; color: var(--muted); }
+    .stars { color: var(--orange); font-size: 1rem; letter-spacing: 1px; }
+
+    /* ── FAQ ── */
+    .faq-list { margin-top: 44px; max-width: 780px; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-q {
+      width: 100%; text-align: left; background: none; border: none;
+      padding: 20px 0; font-size: 1rem; font-weight: 700; color: var(--text);
+      cursor: pointer; display: flex; justify-content: space-between; align-items: center;
+      gap: 12px;
+    }
+    .faq-q:hover { color: var(--orange); }
+    .faq-arrow { font-size: .8rem; transition: transform .25s; flex-shrink: 0; }
+    .faq-a { max-height: 0; overflow: hidden; transition: max-height .3s ease; }
+    .faq-a p { padding: 0 0 18px; color: var(--muted); font-size: .95rem; line-height: 1.7; }
+    .faq-item.open .faq-arrow { transform: rotate(180deg); }
+    .faq-item.open .faq-a { max-height: 400px; }
+
+    /* ── BENEFITS ── */
+    .benefits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 20px; margin-top: 40px; }
+    .benefit-card { padding: 22px; border-radius: var(--radius); background: var(--light); }
+    .benefit-icon { font-size: 1.7rem; margin-bottom: 10px; }
+
+    /* ── FORM ── */
+    .form-wrapper { display: grid; grid-template-columns: 1fr 1fr; gap: 44px; margin-top: 44px; align-items: start; }
+    .contact-info h3 { margin-bottom: 18px; }
+    .contact-item { display: flex; gap: 14px; margin-bottom: 18px; }
+    .contact-icon {
+      width: 42px; height: 42px; flex-shrink: 0; background: var(--dark);
+      border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem;
+    }
+    .contact-item-text { font-size: .9rem; }
+    .contact-item-text strong { display: block; }
+    .contact-item-text a { color: #1a5fa8; }
+    .contact-item-text a:hover { color: var(--orange); }
+    .response-box {
+      margin-top: 24px; padding: 18px 20px;
+      background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow);
+    }
+    .response-box strong { color: var(--dark); }
+    .response-box p { font-size: .88rem; color: var(--muted); margin-top: 5px; }
+
+    form { background: var(--white); border-radius: var(--radius); padding: 32px; box-shadow: var(--shadow); }
+    .form-group { margin-bottom: 16px; }
+    .form-group label { display: block; font-size: .86rem; font-weight: 600; margin-bottom: 5px; }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%; padding: 12px 14px;
+      border: 1.5px solid var(--border); border-radius: 6px;
+      font-size: .96rem; color: var(--text); transition: border-color .2s; font-family: inherit;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus { outline: none; border-color: #1a5fa8; }
+    .form-group textarea { resize: vertical; min-height: 80px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .form-submit { width: 100%; padding: 15px; font-size: 1rem; margin-top: 4px; }
+    .form-note { font-size: .76rem; color: var(--muted); text-align: center; margin-top: 8px; }
+    #form-success {
+      display: none; background: #e6f9ef; border: 1px solid #34a85a;
+      border-radius: var(--radius); padding: 20px 24px;
+      color: #1a6b38; font-weight: 600; text-align: center; margin-top: 14px;
+    }
+
+    /* ── FOOTER ── */
+    footer { background: #1a1a1a; color: rgba(255,255,255,.72); padding: 48px 20px 28px; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 36px; margin-bottom: 32px; }
+    footer h4 { color: #fff; font-size: .93rem; margin-bottom: 13px; }
+    footer p, footer li { font-size: .86rem; line-height: 1.85; }
+    footer ul { list-style: none; }
+    footer a:hover { color: var(--orange); }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,.1); padding-top: 18px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-size: .78rem; }
+
+    /* ── STICKY MOBILE CTA ── */
+    #sticky-cta {
+      display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 99;
+      background: var(--orange); color: #fff; padding: 14px 20px;
+      text-align: center; font-weight: 700; font-size: .97rem;
+      box-shadow: 0 -4px 16px rgba(244,124,32,.4);
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .calc-row, .form-wrapper, .form-row, .footer-grid { grid-template-columns: 1fr; }
+      .header-cta .btn { display: none; }
+      #sticky-cta { display: block; }
+      .hero-btns .btn-outline { display: none; }
+      footer { padding-bottom: 68px; }
+      /* Mobilon csak 3 form mező látszik elsőre */
+      .form-optional { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── URGENCY SÁV ── -->
+<div id="urgency-bar">
+  🗓️ <span>Márciusban még 3 szabad felmérési időpontunk van</span> – foglalja le még ma!
+</div>
+
+<!-- ── HEADER ── -->
+<header id="site-header">
+  <div class="header-inner">
+    <div class="logo">
+      <svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;margin-right:8px">
+        <path d="M20 4L4 18h4v16h10v-9h4v9h10V18h4L20 4z" fill="#2a9d8f" stroke="#2a9d8f" stroke-width="1"/>
+        <rect x="16" y="25" width="8" height="9" rx="1" fill="#0f2540"/>
+        <circle cx="28" cy="14" r="5" fill="#f5f2ee" stroke="#2a9d8f" stroke-width="1.5"/>
+        <path d="M26 14h4M28 12v4" stroke="#2a9d8f" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      Walter &amp; Walter <span>Kft.</span>
+      <small>Gépészet, ami működik!</small>
+    </div>
+    <div class="header-cta">
+      <a href="tel:+36705383255" class="header-phone">📞 +36 70 538 3255</a>
+      <a href="#kapcsolat" class="btn btn-primary" style="padding:10px 20px;font-size:.9rem;">Ajánlatot kérek</a>
+    </div>
+  </div>
+</header>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-content container">
+    <div class="label">⚡ Hőszivattyú specialista 2016 óta – Szigetszentmiklós &amp; Pest megye</div>
+    <h1>Hőszivattyú Telepítés &amp; Épületgépészet, ami tényleg működik</h1>
+    <p>Szakszerű levegő-víz hőszivattyú telepítés, padlófűtés és szerviz – akár 40%-os megtakarítás a fűtésszámlán. Díjmentes felmérés, gyors ajánlat.</p>
+    <div class="hero-btns">
+      <a href="#kapcsolat" class="btn btn-primary">Kérek díjmentes felmérést</a>
+      <a href="#kalkulator" class="btn btn-outline">Megnézem a megtakarítást</a>
+    </div>
+    <div class="hero-trust">
+      <div class="trust-item">✅ Gyártói garancia</div>
+      <div class="trust-item">✅ Állami támogatáshoz segítség</div>
+      <div class="trust-item">✅ Minősített szakemberek</div>
+      <div class="trust-item">✅ 24 órás szervizreagálás</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── STATS ── -->
+<section id="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div>
+        <div class="stat-number">8+</div>
+        <div class="stat-label">Év tapasztalat</div>
+      </div>
+      <div>
+        <div class="stat-number">200+</div>
+        <div class="stat-label">Telepített rendszer</div>
+      </div>
+      <div>
+        <div class="stat-number">~127 000 Ft</div>
+        <div class="stat-label">Átlagos éves megtakarítás</div>
+      </div>
+      <div>
+        <div class="stat-number">15 perc</div>
+        <div class="stat-label">Visszahívási idő</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PARTNER LOGÓK ── -->
+<section id="partners">
+  <div class="container">
+    <p class="partners-label">Elismert gyártók hivatalos partnere</p>
+    <div class="partners-row">
+      <!-- TÖLTSD KI: cseréld le valódi gyártói logókra -->
+      <div class="partner-logo">DAIKIN</div>
+      <div class="partner-logo">VIESSMANN</div>
+      <div class="partner-logo">BOSCH</div>
+      <div class="partner-logo">MITSUBISHI</div>
+      <div class="partner-logo">SAMSUNG</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── MIÉRT MI ── -->
+<section id="miert-mi" class="section">
+  <div class="container">
+    <div class="label">Miért minket válasszon?</div>
+    <h2>Megbízható épületgépészeti szakember – egy kézből</h2>
+    <p class="lead">Nem csak telepítünk – teljes körű megoldást adunk az első konzultációtól a hosszú távú karbantartásig.</p>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon">🏆</div>
+        <h3>2016 óta a piacon</h3>
+        <p style="color:var(--muted);font-size:.93rem;">8+ év tapasztalat, 200+ sikeres projekt [TÖLTSD KI: pl. Budapest és Pest megye] területén.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🔧</div>
+        <h3>Teljes körű szolgáltatás</h3>
+        <p style="color:var(--muted);font-size:.93rem;">Tervezéstől a telepítésen át a szervizzig – minden egy helyen, egy csapattól.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">💡</div>
+        <h3>Energiatakarékos megoldások</h3>
+        <p style="color:var(--muted);font-size:.93rem;">Kizárólag korszerű, környezetbarát technológiákkal. COP 4–5 feletti rendszerek.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">⚡</div>
+        <h3>Gyors szervizreagálás</h3>
+        <p style="color:var(--muted);font-size:.93rem;">Szervizigényre 24 órán belül reagálunk. Nem hagyjuk Önt fűtés nélkül télen.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SZOLGÁLTATÁSOK ── -->
+<section id="szolgaltatasok" class="section section-alt">
+  <div class="container">
+    <div class="label">Szolgáltatásaink</div>
+    <h2>Épületgépészeti szolgáltatásaink Szigetszentmiklóson és Pest megyében</h2>
+    <p class="lead">Komplex megoldások új építéstől a felújításig – hőszivattyú telepítéstől a szervizszolgálatig.</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=400&h=180&fit=crop" alt="Hőszivattyú telepítés" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="service-img-fallback" style="display:none">🌡️</div>
+        </div>
+        <div class="service-body">
+          <h3>Hőszivattyú Telepítés</h3>
+          <p>Levegő-víz és talaj-víz hőszivattyúk telepítése, beüzemelése és karbantartása. Teljes körű megoldás A-tól Z-ig.</p>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=180&fit=crop" alt="Padlófűtés kiépítés" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="service-img-fallback" style="display:none">🏠</div>
+        </div>
+        <div class="service-body">
+          <h3>Padlófűtés Kiépítés</h3>
+          <p>Padlófűtés, felületfűtés-hűtés kiépítése. Modern, egyenletes hőelosztás az egész otthonban.</p>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400&h=180&fit=crop" alt="Hűtés klíma" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="service-img-fallback" style="display:none">❄️</div>
+        </div>
+        <div class="service-body">
+          <h3>Hűtés &amp; Klíma</h3>
+          <p>Nyáron hűt, télen fűt – ugyanazzal a rendszerrel. Energiatakarékos hűtési megoldások.</p>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=400&h=180&fit=crop" alt="Szellőztetés HRV" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="service-img-fallback" style="display:none">💨</div>
+        </div>
+        <div class="service-body">
+          <h3>Szellőztetés (HRV)</h3>
+          <p>Hővisszanyerős szellőztető rendszerek – friss levegő, minimális hőveszteség.</p>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=400&h=180&fit=crop" alt="Vízszerelés csatorna" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="service-img-fallback" style="display:none">🔩</div>
+        </div>
+        <div class="service-body">
+          <h3>Víz- &amp; Csatornavezeték</h3>
+          <p>Víz- és csatornahálózat tervezése és kiépítése új építésnél és felújításnál egyaránt.</p>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=400&h=180&fit=crop" alt="Szerviz karbantartás" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="service-img-fallback" style="display:none">🛠️</div>
+        </div>
+        <div class="service-body">
+          <h3>Szerviz &amp; Karbantartás</h3>
+          <p>Gyors szervizszolgálat, éves karbantartási csomagok. Minden márkához értünk.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── KALKULÁTOR ── -->
+<section id="kalkulator" class="section">
+  <div class="container">
+    <div class="label">Megtakarítás kalkulátor</div>
+    <h2>Mennyit spórolhat hőszivattyúval?</h2>
+    <p class="lead">Adja meg jelenlegi fűtési adatait – megbecsüljük az éves megtakarítást.</p>
+    <div class="calc-box">
+      <div class="calc-row">
+        <div class="calc-field">
+          <label>Éves fűtési költség (Ft)</label>
+          <input type="number" id="calc-cost" placeholder="pl. 400 000" min="0" />
+        </div>
+        <div class="calc-field">
+          <label>Jelenlegi fűtési mód</label>
+          <select id="calc-type">
+            <option value="0.35">Gázkazán</option>
+            <option value="0.30">Elektromos konvektor</option>
+            <option value="0.25">Olajkazán</option>
+            <option value="0.20">Pellet / fa</option>
+            <option value="0.40">Elektromos bojler</option>
+          </select>
+        </div>
+      </div>
+      <div class="calc-row">
+        <div class="calc-field">
+          <label>Ingatlan mérete (m²)</label>
+          <input type="number" id="calc-area" placeholder="pl. 120" min="0" />
+        </div>
+        <div class="calc-field">
+          <label>Ingatlan típusa</label>
+          <select id="calc-building">
+            <option value="1.0">Családi ház</option>
+            <option value="0.85">Újabb ház (2010+)</option>
+            <option value="1.15">Régebbi téglaépület</option>
+            <option value="0.9">Társasházi lakás</option>
+          </select>
+        </div>
+      </div>
+      <button class="btn btn-primary" onclick="calcSaving()" style="width:100%;padding:13px;font-size:1rem;">
+        Kiszámolom a megtakarítást →
+      </button>
+      <div id="calc-result">
+        <div class="result-title">Becsült éves megtakarítás:</div>
+        <div class="result-saving" id="calc-saving-val">—</div>
+        <div class="result-sub" id="calc-saving-sub"></div>
+        <a href="#kapcsolat" class="btn" style="background:#fff;color:var(--orange);margin-top:14px;display:inline-block;">
+          Ingyenes felmérést kérek →
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── VÉLEMÉNYEK ── -->
+<section id="referencia" class="section section-alt">
+  <div class="container">
+    <div class="label">Ügyfeleink mondták</div>
+    <h2>Akiknek már működik – valós visszajelzések</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <p class="testimonial-text">Az első hidegebb hónapban harmadával esett a fűtésszámlám, pont ahogy ígérték. Imádom, hogy nincs gond a kéménnyel, és a ház hőmérséklete sokkal egyenletesebb!</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">B</div>
+          <div>
+            <div class="author-name">Bálint – Szigetszentmiklós</div>
+            <div class="author-sub">Levegő-víz hőszivattyú csere, 2025</div>
+            <div class="stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+      <!-- TÖLTSD KI: adj hozzá még 1-2 valódi véleményt -->
+      <div class="testimonial-card">
+        <p class="testimonial-text">[TÖLTSD KI: valódi ügyfélvélemény – pl. padlófűtés telepítésről, szervizről vagy más szolgáltatásról]</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">[?]</div>
+          <div>
+            <div class="author-name">[TÖLTSD KI: Ügyfél neve – Város]</div>
+            <div class="author-sub">[TÖLTSD KI: Szolgáltatás, év]</div>
+            <div class="stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">[TÖLTSD KI: valódi ügyfélvélemény]</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">[?]</div>
+          <div>
+            <div class="author-name">[TÖLTSD KI: Ügyfél neve – Város]</div>
+            <div class="author-sub">[TÖLTSD KI: Szolgáltatás, év]</div>
+            <div class="stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── MIÉRT HŐSZIVATTYÚ ── -->
+<section id="miert-hoszivatyu" class="section">
+  <div class="container">
+    <div class="label">Miért érdemes váltani?</div>
+    <h2>A hőszivattyú előnyei – amit tudni kell</h2>
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <div class="benefit-icon">💰</div>
+        <h3>Alacsonyabb számla</h3>
+        <p style="color:var(--muted);font-size:.92rem;">1 kWh elektromos energiából 3–5 kWh hőt termel. Átlagosan 30–50%-os megtakarítás gázhoz képest.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">🌿</div>
+        <h3>Környezetbarát</h3>
+        <p style="color:var(--muted);font-size:.92rem;">Nincs égés, nincs helyi CO₂ kibocsátás. Napelemes rendszerrel kombinálva szinte ingyenes fűtés.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">🏛️</div>
+        <h3>Állami támogatás</h3>
+        <p style="color:var(--muted);font-size:.92rem;">Több pályázati lehetőség elérhető. Segítünk a papírmunkában is – teljeskörűen.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">🔄</div>
+        <h3>Fűt és hűt is</h3>
+        <p style="color:var(--muted);font-size:.92rem;">Egyetlen rendszerrel télen fűt, nyáron hűt. Külön klímára nincs szükség.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FAQ ── -->
+<section id="gyik" class="section section-alt">
+  <div class="container">
+    <div class="label">Gyakori kérdések</div>
+    <h2>Hőszivattyú telepítés – amit mindenki megkérdez</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Mennyibe kerül egy hőszivattyú telepítés? <span class="faq-arrow">▼</span>
+        </button>
+        <div class="faq-a"><p>A telepítés teljes költsége a rendszer méretétől, az ingatlan adottságaitól és a kiválasztott géptől függ. Levegő-víz hőszivattyú esetén általában 1,5–4 millió Ft közötti összegre számíthat, beleértve a berendezést, a szerelési munkát és a beüzemelést. Pontos ajánlathoz díjmentes helyszíni felmérést végzünk.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Mennyi idő alatt térül meg a hőszivattyú? <span class="faq-arrow">▼</span>
+        </button>
+        <div class="faq-a"><p>Az átlagos megtérülési idő 5–8 év, de ez függ az aktuális energiaáraktól, az ingatlan szigetelésétől és a korábbi fűtési módtól. Gázkazánról váltva és állami támogatással ez akár 3–5 évre is csökkenhet. Kalkulátorunkkal megbecsülheti a várható megtakarítást.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Igényelhetek állami támogatást hőszivattyúhoz? <span class="faq-arrow">▼</span>
+        </button>
+        <div class="faq-a"><p>Igen, jelenleg több támogatási forma is elérhető Magyarországon hőszivattyú telepítéshez. Segítünk megtalálni az Önnek megfelelő pályázatot és a papírmunkában is közreműködünk. Hívjon minket részletekért: <a href="tel:+36705383255">+36 70 538 3255</a></p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Meddig tart a telepítés? <span class="faq-arrow">▼</span>
+        </button>
+        <div class="faq-a"><p>Egy átlagos levegő-víz hőszivattyú telepítés 1–3 munkanapot vesz igénybe, attól függően, hogy szükséges-e padlófűtés kiépítése vagy csak a meglévő radiátoros rendszert kötjük rá. A teljes folyamat – felmérés, ajánlat, engedélyek, telepítés – általában 2–4 héten belül lezárható.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Alkalmas-e a hőszivattyú régi, rosszul szigetelt házhoz? <span class="faq-arrow">▼</span>
+        </button>
+        <div class="faq-a"><p>Igen, de a hatékonyság függ a szigeteléstől. Régebbi épületeknél érdemes párhuzamosan a szigetelést is javítani a maximális megtakarítás érdekében. Helyszíni felmérésen megvizsgáljuk az ingatlan adottságait és az optimális megoldást javasoljuk.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── KAPCSOLAT / FORM ── -->
+<section id="kapcsolat" class="section">
+  <div class="container">
+    <div class="label">Kapcsolat</div>
+    <h2>Kérjen díjmentes felmérést!</h2>
+    <p class="lead">Töltse ki az űrlapot – szakemberünk <strong>1 munkanapon belül visszahívja</strong>.</p>
+    <div class="form-wrapper">
+
+      <div class="contact-info">
+        <h3>Elérhetőségeink</h3>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div class="contact-item-text">
+            <strong>Telefon</strong>
+            <a href="tel:+36705383255">+36 70 538 3255</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div class="contact-item-text">
+            <strong>Általános &amp; Ajánlatkérés</strong>
+            <a href="mailto:info@walterepito.hu">info@walterepito.hu</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">⚙️</div>
+          <div class="contact-item-text">
+            <strong>Beüzemelés igénylés</strong>
+            <a href="mailto:beuzemeles@walterepito.hu">beuzemeles@walterepito.hu</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🔧</div>
+          <div class="contact-item-text">
+            <strong>Karbantartás</strong>
+            <a href="mailto:karbantartas@walterepito.hu">karbantartas@walterepito.hu</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🛠️</div>
+          <div class="contact-item-text">
+            <strong>Szerviz igénylés</strong>
+            <a href="mailto:szerviz@walterepito.hu">szerviz@walterepito.hu</a>
+          </div>
+        </div>
+        <div class="response-box">
+          <strong>⏱️ Válaszidő</strong>
+          <p>Ajánlatkérésre <strong>1 munkanapon belül</strong> válaszolunk.<br>Szerviz esetén <strong>24 órán belül</strong> reagálunk.</p>
+        </div>
+      </div>
+
+      <div>
+        <form id="contact-form" onsubmit="submitForm(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nev">Neve *</label>
+              <input type="text" id="nev" name="nev" placeholder="Kovács János" required />
+            </div>
+            <div class="form-group">
+              <label for="telefon">Telefonszám *</label>
+              <input type="tel" id="telefon" name="telefon" placeholder="+36 XX XXX XXXX" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="tema">Mivel kapcsolatban keresne minket? *</label>
+            <select id="tema" name="tema" required>
+              <option value="">— Kérjük válasszon —</option>
+              <option>Hőszivattyú telepítés – ajánlatkérés</option>
+              <option>Padlófűtés / felületfűtés</option>
+              <option>Hűtés / klíma</option>
+              <option>Szellőztetés (HRV)</option>
+              <option>Beüzemelés igénylés</option>
+              <option>Karbantartás igénylés</option>
+              <option>Szerviz igénylés</option>
+              <option>Egyéb kérdés</option>
+            </select>
+          </div>
+          <!-- Opcionális mezők – mobilon elrejtve -->
+          <div class="form-optional">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="visszahivas">Visszahívás időpontja</label>
+                <select id="visszahivas" name="visszahivas">
+                  <option value="">Bármikor</option>
+                  <option>Reggel (8–10)</option>
+                  <option>Délelőtt (10–12)</option>
+                  <option>Délben (12–14)</option>
+                  <option>Délután (14–17)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="helyszin">Irányítószám / Helyszín</label>
+                <input type="text" id="helyszin" name="helyszin" placeholder="pl. 1234 Budapest" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="uzenet">Rövid leírás (opcionális)</label>
+              <textarea id="uzenet" name="uzenet" placeholder="Pl. 120 m²-es ház, jelenleg gázkazánnal fűtünk..."></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit">Visszahívást kérek – ingyenes felmérés ✓</button>
+          <p class="form-note">Az adatait bizalmasan kezeljük, harmadik félnek nem adjuk át.</p>
+        </form>
+        <div id="form-success">
+          ✅ Köszönjük! Hamarosan felvesszük Önnel a kapcsolatot.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>
+          <svg width="20" height="20" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;margin-right:6px">
+            <path d="M20 4L4 18h4v16h10v-9h4v9h10V18h4L20 4z" fill="#4a8c3f"/>
+            <circle cx="28" cy="14" r="5" fill="#f5f2ee" stroke="#2a9d8f" stroke-width="1.5"/>
+            <path d="M26 14h4M28 12v4" stroke="#2a9d8f" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          Walter &amp; Walter Kft.
+        </h4>
+        <p>2016 óta Magyarország megbízható épületgépészeti szakembere. Hőszivattyú telepítés, fűtés, hűtés, szellőztetés – minőség és hatékonyság az otthonáért.</p>
+        <p style="margin-top:10px;font-size:.8rem;color:rgba(255,255,255,.38);">
+          Hőszivattyú telepítés Szigetszentmiklós · Levegő-víz hőszivattyú · Padlófűtés · Épületgépészet · Energiatakarékos fűtés · Szellőztetés HRV · Szerviz
+        </p>
+      </div>
+      <div>
+        <h4>Szolgáltatások</h4>
+        <ul>
+          <li><a href="#szolgaltatasok">Hőszivattyú telepítés</a></li>
+          <li><a href="#szolgaltatasok">Padlófűtés kiépítés</a></li>
+          <li><a href="#szolgaltatasok">Hűtés &amp; Klíma</a></li>
+          <li><a href="#szolgaltatasok">Szellőztetés</a></li>
+          <li><a href="#szolgaltatasok">Víz- &amp; Csatorna</a></li>
+          <li><a href="#szolgaltatasok">Szerviz &amp; Karbantartás</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kapcsolat</h4>
+        <ul>
+          <li>📞 <a href="tel:+36705383255">+36 70 538 3255</a></li>
+          <li>✉️ <a href="mailto:info@walterepito.hu">info@walterepito.hu</a></li>
+          <li>[TÖLTSD KI: Cím]</li>
+          <li>[TÖLTSD KI: Nyitvatartás pl. H–P 8–17]</li>
+          <li style="margin-top:10px;"><a href="#kapcsolat">Ajánlatot kérek →</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Walter &amp; Walter Kft. – Minden jog fenntartva.</span>
+      <span><a href="#" style="color:inherit">Adatvédelem</a> | <a href="#" style="color:inherit">ÁSZF</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ── STICKY MOBILE CTA ── -->
+<div id="sticky-cta">
+  <a href="#kapcsolat" style="color:#fff;">📞 Ingyenes felmérést kérek →</a>
+</div>
+
+<script>
+  // ── Kalkulátor ──
+  function calcSaving() {
+    const cost = parseFloat(document.getElementById('calc-cost').value);
+    const rate = parseFloat(document.getElementById('calc-type').value);
+    const factor = parseFloat(document.getElementById('calc-building').value);
+    if (!cost || cost <= 0) { alert('Kérjük adja meg az éves fűtési költséget!'); return; }
+    const saving = Math.round(cost * rate * factor / 1000) * 1000;
+    const pct = Math.round(rate * factor * 100);
+    document.getElementById('calc-saving-val').textContent = saving.toLocaleString('hu-HU') + ' Ft / év';
+    document.getElementById('calc-saving-sub').textContent = `Ez kb. ${pct}%-os megtakarítás. Pontos összeget helyszíni felmérésen tudunk mondani.`;
+    const r = document.getElementById('calc-result');
+    r.style.display = 'block';
+    r.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  // ── Form ──
+  function submitForm(e) {
+    e.preventDefault();
+    document.getElementById('contact-form').style.display = 'none';
+    document.getElementById('form-success').style.display = 'block';
+  }
+
+  // ── FAQ ──
+  function toggleFaq(btn) {
+    const item = btn.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  }
+
+  // ── Smooth scroll ──
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const t = document.querySelector(a.getAttribute('href'));
+      if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
+    });
+  });
+</script>
+
+</body>
+</html>
