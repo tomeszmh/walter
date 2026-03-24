@@ -1,0 +1,22 @@
+<svg width="160" height="45" viewBox="0 0 160 45" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ea580c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Modern W&W logo - egyszerű, tiszta -->
+  <!-- Első W -->
+  <path d="M 8 32 L 8 12 L 14 12 L 14 24 L 20 12 L 26 12 L 26 24 L 32 12 L 38 12 L 38 32 L 32 32 L 32 20 L 26 32 L 20 32 L 20 20 L 14 32 Z" fill="url(#logoGrad)"/>
+  
+  <!-- & jel -->
+  <circle cx="48" cy="22" r="8" fill="none" stroke="url(#logoGrad)" stroke-width="2"/>
+  <path d="M 48 14 L 48 22 L 54 22" stroke="url(#logoGrad)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Második W -->
+  <path d="M 62 32 L 62 12 L 68 12 L 68 24 L 74 12 L 80 12 L 80 24 L 86 12 L 92 12 L 92 32 L 86 32 L 86 20 L 80 32 L 74 32 L 74 20 L 68 32 Z" fill="url(#logoGrad)"/>
+  
+  <!-- Kft. -->
+  <text x="100" y="28" font-family="Arial, sans-serif" font-size="9" font-weight="600" fill="url(#logoGrad)" opacity="0.8">Kft.</text>
+</svg>
