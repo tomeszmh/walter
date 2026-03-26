@@ -670,6 +670,119 @@ section {
 }
 
 /* ========================================
+   Detailed Services Section
+   ======================================== */
+
+.detailed-services {
+    background: var(--cream);
+}
+
+.detailed-services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-md);
+}
+
+.detail-card {
+    padding: var(--space-lg);
+    border: 1px solid var(--cream-dark);
+    border-radius: 12px;
+    background: var(--white);
+    transition: all 0.4s var(--ease);
+    position: relative;
+    overflow: hidden;
+}
+
+.detail-card:hover .card-top-line { transform: scaleX(1); }
+
+.detail-card:hover {
+    border-color: var(--copper);
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+}
+
+.detail-card h3 {
+    font-size: 1.25rem;
+    color: var(--charcoal);
+    margin-bottom: var(--space-sm);
+}
+
+.detail-categories {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    margin-top: var(--space-sm);
+}
+
+.detail-category h4 {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--copper);
+    margin-bottom: 0.4rem;
+}
+
+.detail-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.detail-list li {
+    font-size: 0.9rem;
+    color: var(--warm-gray);
+    padding-left: 1rem;
+    position: relative;
+}
+
+.detail-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--copper);
+    font-size: 0.7rem;
+    top: 0.15em;
+}
+
+.brands-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0.3rem 0.6rem;
+}
+
+.brands-list li {
+    padding-left: 0;
+    font-weight: 600;
+    color: var(--charcoal);
+    font-size: 0.85rem;
+}
+
+.brands-list li::before { display: none; }
+
+.brands-list li:not(:last-child)::after {
+    content: '·';
+    margin-left: 0.6rem;
+    color: var(--copper);
+}
+
+@media (max-width: 1024px) {
+    .detailed-services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .detailed-services-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ========================================
    Why Section
    ======================================== */
 
