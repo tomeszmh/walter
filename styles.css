@@ -202,6 +202,26 @@ abbr[title] {
     transform: translateY(-1px);
 }
 
+.nav-phone {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--copper) !important;
+    letter-spacing: 0.3px;
+    border: 1.5px solid var(--copper);
+    padding: 0.35rem 0.85rem;
+    border-radius: 6px;
+    transition: all 0.3s var(--ease);
+    white-space: nowrap;
+}
+.nav-phone::after { display: none !important; }
+.nav-phone:hover {
+    background: var(--copper) !important;
+    color: var(--white) !important;
+}
+
 /* Hamburger */
 .hamburger {
     display: none;
@@ -2058,4 +2078,113 @@ section {
 ::selection {
     background: var(--copper);
     color: var(--white);
+}
+
+/* ========================================
+   Service Area Section
+   ======================================== */
+
+.service-area {
+    background: var(--charcoal);
+    color: var(--cream);
+}
+
+.service-area .section-tag { color: var(--copper); }
+.service-area .section-title { color: var(--cream); }
+.service-area .section-title::after { background: var(--copper-glow); }
+.service-area .section-desc { color: var(--cream-muted, rgba(255,255,255,0.65)); }
+
+.area-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin-top: var(--space-md);
+}
+
+.area-primary h3,
+.area-extended h3 {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--copper);
+    margin-bottom: var(--space-sm);
+}
+
+.area-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.4rem 1rem;
+}
+
+.area-list li {
+    font-size: 0.95rem;
+    color: var(--cream);
+    padding-left: 1rem;
+    position: relative;
+}
+
+.area-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--copper);
+    font-size: 0.7rem;
+    top: 0.2em;
+}
+
+.area-extended p {
+    color: rgba(255,255,255,0.7);
+    line-height: 1.8;
+    margin-bottom: var(--space-sm);
+}
+
+.btn-sm {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 640px) {
+    .area-grid {
+        grid-template-columns: 1fr;
+    }
+    .area-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ========================================
+   Floating Call Button (mobile)
+   ======================================== */
+
+.float-call {
+    display: none;
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    z-index: 999;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--copper);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.float-call:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.4);
+}
+
+@media (max-width: 768px) {
+    .float-call {
+        display: flex;
+    }
 }
