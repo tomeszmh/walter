@@ -37,3 +37,6 @@ Thumbs.db
 # Vercel
 .vercel/
 
+# Érzékeny konfigurációs fájlok
+mail-config.php
+phpmailer/
