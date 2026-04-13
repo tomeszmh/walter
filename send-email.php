@@ -5,9 +5,9 @@ header('X-Content-Type-Options: nosniff');
 header('X-Frame-Options: DENY');
 
 require_once __DIR__ . '/mail-config.php';
-require_once __DIR__ . '/phpmailer/Exception.php';
-require_once __DIR__ . '/phpmailer/PHPMailer.php';
-require_once __DIR__ . '/phpmailer/SMTP.php';
+require_once __DIR__ . '/src/Exception.php';
+require_once __DIR__ . '/src/PHPMailer.php';
+require_once __DIR__ . '/src/SMTP.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
