@@ -491,8 +491,31 @@ abbr[title] {
     display: flex;
     gap: var(--space-sm);
     flex-wrap: wrap;
-    margin-bottom: var(--space-2xl);
+    margin-bottom: var(--space-md);
     animation: fadeSlideUp 0.8s var(--ease) 0.4s both;
+}
+
+/* Hero Trust Bar */
+.hero-trust-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm) var(--space-lg);
+    margin-bottom: var(--space-2xl);
+    animation: fadeSlideUp 0.8s var(--ease) 0.5s both;
+}
+
+.hero-trust-bar span {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--warm-gray-light);
+    letter-spacing: 0.01em;
+}
+
+/* Section CTA (below why/testimonials) */
+.section-cta {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--space-xl);
 }
 
 .hero .btn-primary {
