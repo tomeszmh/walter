@@ -14,6 +14,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Generate mail-config.php
+        run: |
+          cat > mail-config.php << 'PHPEOF'
+          <?php
+          define('MAIL_HOST',     'mail.waltergepeszet.hu');
+          define('MAIL_PORT',     465);
+          define('MAIL_USERNAME', 'info@waltergepeszet.hu');
+          define('MAIL_PASSWORD', 'MAIL_PASSWORD_PLACEHOLDER');
+          define('MAIL_FROM',     'info@waltergepeszet.hu');
+          define('MAIL_FROM_NAME','Walter & Walter Kft.');
+          PHPEOF
+          sed -i "s/MAIL_PASSWORD_PLACEHOLDER/${{ secrets.MAIL_PASSWORD }}/" mail-config.php
+
       - name: Upload via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
