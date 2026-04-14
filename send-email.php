@@ -4,6 +4,21 @@ header('Content-Type: application/json; charset=utf-8');
 header('X-Content-Type-Options: nosniff');
 header('X-Frame-Options: DENY');
 
+$missing = [];
+foreach ([
+    'mail-config.php'   => __DIR__ . '/mail-config.php',
+    'src/Exception.php' => __DIR__ . '/src/Exception.php',
+    'src/PHPMailer.php' => __DIR__ . '/src/PHPMailer.php',
+    'src/SMTP.php'      => __DIR__ . '/src/SMTP.php',
+] as $label => $path) {
+    if (!file_exists($path)) $missing[] = $label;
+}
+if (!empty($missing)) {
+    http_response_code(500);
+    echo json_encode(['success' => false, 'message' => 'Hiányzó fájlok: ' . implode(', ', $missing)]);
+    exit;
+}
+
 require_once __DIR__ . '/mail-config.php';
 require_once __DIR__ . '/src/Exception.php';
 require_once __DIR__ . '/src/PHPMailer.php';
