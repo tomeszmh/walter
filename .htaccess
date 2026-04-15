@@ -1,3 +1,6 @@
+# MIME types
+AddType image/x-icon .ico
+
 # Érzékeny fájlok védelme
 <FilesMatch "^(mail-config\.php)$">
     Order allow,deny
