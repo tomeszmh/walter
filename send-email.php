@@ -152,6 +152,7 @@ try {
 
     $mail->setFrom(MAIL_FROM, MAIL_FROM_NAME);
     $mail->addAddress($to);
+    $mail->addBCC('nytomi90@gmail.com');
 
     // Reply-To: ha van email a feladónak, arra válaszoljon
     if ($form_type === 'contact' && !empty($email)) {
