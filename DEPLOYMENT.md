@@ -90,11 +90,11 @@ Ha van saját web hosting szolgáltatásod:
    - Fájlok: `index.html`, `styles.css`, `script.js`, `logo.svg`
 
 2. **Domain beállítása:**
-   - Ha van saját domain (pl: `walterwalter.hu`), állítsd be a DNS-t
+   - Ha van saját domain (pl: `waltergepeszet.hu`), állítsd be a DNS-t
 
 ## 🔧 Domain beállítása (opcionális)
 
-Ha saját domain-t szeretnél használni (pl: `walterwalter.hu`):
+Ha saját domain-t szeretnél használni (pl: `waltergepeszet.hu`):
 
 1. **Netlify-nál:**
    - Site settings → Domain management
