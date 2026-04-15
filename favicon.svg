@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#1a1a1a"/>
+  <text x="16" y="12" font-family="Georgia, 'Times New Roman', serif" font-size="9.5" fill="#c47a3a" text-anchor="middle" font-weight="bold" letter-spacing="0.5">W&amp;W</text>
+  <text x="16" y="23" font-family="Georgia, 'Times New Roman', serif" font-size="7" fill="#8a8078" text-anchor="middle" letter-spacing="1.5">KFT</text>
+  <rect x="6" y="15" width="20" height="0.8" fill="#c47a3a" opacity="0.6"/>
+</svg>
