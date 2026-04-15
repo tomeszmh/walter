@@ -1,5 +1,6 @@
 # MIME types
 AddType image/x-icon .ico
+AddType image/svg+xml .svg
 
 # Érzékeny fájlok védelme
 <FilesMatch "^(mail-config\.php)$">
