@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" fill="#1a1a1a"/>
-  <text x="16" y="13" font-family="Georgia, serif" font-size="10" text-anchor="middle" font-weight="bold" letter-spacing="-0.5">
-    <tspan fill="#f5f0e8">W</tspan><tspan fill="#c47a3a" font-style="italic">&amp;</tspan><tspan fill="#f5f0e8">W</tspan>
+  <rect width="32" height="32" fill="#f5f0e8"/>
+  <text x="16" y="22" font-family="Georgia, 'Times New Roman', serif" font-size="16" text-anchor="middle" font-weight="bold" letter-spacing="-1">
+    <tspan fill="#1a1a1a">W</tspan><tspan fill="#c47a3a" font-style="italic">&amp;</tspan><tspan fill="#1a1a1a">W</tspan>
   </text>
-  <text x="16" y="23" font-family="Arial, sans-serif" font-size="5.5" fill="#8a7f74" text-anchor="middle" font-weight="600" letter-spacing="2">KFT.</text>
 </svg>
