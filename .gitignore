@@ -40,3 +40,8 @@ Thumbs.db
 # Érzékeny konfigurációs fájlok
 mail-config.php
 phpmailer/
+
+# Analytics credentials és tokenek
+oauth_client.json
+ga4_token.json
+analytics_report.json
